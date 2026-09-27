@@ -2,7 +2,7 @@ import "./ProductCard.css";
 
 function ProductCard(props) {
     return (
-        <div>
+        <div className="card">
         <span>{props.product.title} </span>
         <div>{props.product.price}</div>
         </div>
